@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="normalize.css" /> <!-- You should include this file to repo as well as all images -->
     <link rel="stylesheet" href="PiedPiper Yulia.css" />
     <title>PiedPiper</title>
 </head>
@@ -12,12 +12,12 @@
     <header class="siteheader">
     <div class="maincontainer">
         <div class="navigation_container">
-            <div class="logo">
+            <div class="logo"> <!-- you can remove this div-->
                 <a href="#Header_site"><img src="logo.png" alt="logo"/></a>
             </div>
             <nav>
-                <a class="Link" href="#TheProblem">the problem |</a> 
-                <a class="Link" href="#PiedPiperCoin">PiedPiperCoin |</a> 
+                <a class="Link" href="#TheProblem">the problem |</a> <!-- Link -> link-->
+                <a class="Link" href="#PiedPiperCoin">PiedPiperCoin |</a>
                 <a class="Link" href="#TheTeam">the team</a>
             </nav>
             </div>
@@ -53,27 +53,27 @@
                 <p>
                     Put even simpler —<span class="span"
                     >it’s the internet, completely decentralized.</span
-                  >
+                  > <!-- It would be better ti use strong here-->
                 </p>
             </div>
         </div>
     </section>
 
     <section class="section_3">
-        <div class="maincontainer">
+        <div class="maincontainer"> <!-- Usually we slit words like this: main-container -->
             <div class="message">
                 We’re in this together! All of our computers and phones join in a
                 network to make the strongest supercomputer the world has ever seen.
             </div>
         </div>
     </section>
-    
-    <section class="section_4" id="PiedPiperCoin">
+
+    <section class="section_4" id="PiedPiperCoin">  <!-- I don't like numbers in classnames. What if you'll add something between? consider semantic naming  -->
         <div class="maincontainer">
             <h2 class="titles">Introducing PiedPiperCoin</h2>
             <div class="text_section4">
                 <div class="logo">
-                    <img src="PPC Logo.png" alt="logo class"logo_img"/>
+                    <img src="PPC Logo.png" alt="logo class"logo_img"/> <!-- logo_img -> logo-img; And you have redundant " here -->
                 </div>
                 <p>
                 Pied Piper's new internet is built for users, by users. You supply
@@ -99,9 +99,9 @@
             <h2 class="titles">The Team</h2>
             <div class="team">
                 <figure class="figure">
-                    <div class="img">
-                        <img 
-                        src="Richard Hendricks.png" 
+                    <div class="img"> <!-- Remove those divs. Every img should be in own figure tag  -->
+                        <img
+                        src="Richard Hendricks.png"
                         alt="Richard Hendricks"
                         class="photo"/>
                         <figcaption>
@@ -110,8 +110,8 @@
                         </figcaption>
                     </div>
                     <div class="img">
-                        <img 
-                        src="Dinesh Chugtai.png" 
+                        <img
+                        src="Dinesh Chugtai.png"
                         alt="Dinesh Chugtai"
                         class="photo"/>
                         <figcaption>
@@ -120,8 +120,8 @@
                         </figcaption>
                     </div>
                     <div class="img">
-                        <img 
-                        src="Bertram Gilfoyle.png" 
+                        <img
+                        src="Bertram Gilfoyle.png"
                         alt="Bertram Gilfoyle"
                         class="photo"/>
                         <figcaption>
@@ -130,8 +130,8 @@
                         </figcaption>
                     </div>
                     <div class="img">
-                        <img 
-                        src="Jared Dunn.png" 
+                        <img
+                        src="Jared Dunn.png"
                         alt="Jared Dunn"
                         class="photo"/>
                         <figcaption>
@@ -140,8 +140,8 @@
                         </figcaption>
                     </div>
                     <div class="img">
-                        <img 
-                        src="Monica Hall.png" 
+                        <img
+                        src="Monica Hall.png"
                         alt="Monica Hall"
                         class="photo"/>
                         <figcaption>
@@ -150,8 +150,8 @@
                         </figcaption>
                     </div>
                     <div class="img">
-                        <img 
-                        src="Nelson Bighetti.png" 
+                        <img
+                        src="Nelson Bighetti.png"
                         alt="Nelson Bighetti"
                         class="photo"/>
                         <figcaption>
@@ -166,7 +166,7 @@
 
     <footer class="footer">
         <div class="maincontainer">
-            <div class="text_footer">
+            <div class="text_footer"> <!-- I don't thing you need this div, just add class to p below -->
                 <p class="text">
                     All other trademarks and copyrights are the property of their
                     respective owners. Use of these names, trademarks and brands does
