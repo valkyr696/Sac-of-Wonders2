@@ -4,36 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css" /> <!-- You should include this file to repo as well as all images -->
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="PiedPiper Yulia.css" />
     <title>PiedPiper</title>
 </head>
 <body>
     <header class="siteheader">
-    <div class="maincontainer">
+    <div class="main_container">
         <div class="navigation_container">
-            <div class="logo"> <!-- you can remove this div-->
-                <a href="#Header_site"><img src="logo.png" alt="logo"/></a>
-            </div>
-            <nav>
-                <a class="Link" href="#TheProblem">the problem |</a> <!-- Link -> link-->
-                <a class="Link" href="#PiedPiperCoin">PiedPiperCoin |</a>
-                <a class="Link" href="#TheTeam">the team</a>
+                <a href="#Header_site"><img src="logo.png" alt="logo" class="initial-logo"/></a>
+            <nav class="nav_links">
+                <a class="link" href="#TheProblem">the problem</a> 
+                <a class="link" href="#PiedPiperCoin">PiedPiperCoin</a>
+                <a class="link" href="#TheTeam">the team</a>
             </nav>
             </div>
         </div>
     </header>
 
-    <section class="section_1" id="Header_site">
-        <div class="maincontainer">
-            <h1 class="main_title">PiperNet Is Here</h1>
+    <section class="section_header" id="Header_site">
+        <div class="main_container">
+            <h1 class="main_title" id="Logo2">PiperNet Is Here</h1>
         </div>
     </section>
 
-    <section class="section_2" id="TheProblem">
-        <div class="maincontainer">
+    <section class="section_problem" id="TheProblem">
+        <div class="main_container">
             <h2 class="titles">The Problem</h2>
-            <div class="text_section2">
+            <div class="text_section_problem">
                 <p>
                 Beneath the flashy homepages of your favorite sites lurk Hooli™ and
                 other evil corporations out to hoard and sell your most personal
@@ -51,29 +49,29 @@
                 and end-to-end encryption.
                 </p>
                 <p>
-                    Put even simpler —<span class="span"
-                    >it’s the internet, completely decentralized.</span
-                  > <!-- It would be better ti use strong here-->
+                    Put even simpler —<strong class="text_section_problem_strong"
+                    >it’s the internet, completely decentralized.</strong
+                  >
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="section_3">
-        <div class="maincontainer"> <!-- Usually we slit words like this: main-container -->
+    <section class="section_message">
+        <div class="main_container">
             <div class="message">
                 We’re in this together! All of our computers and phones join in a
                 network to make the strongest supercomputer the world has ever seen.
             </div>
         </div>
     </section>
-
-    <section class="section_4" id="PiedPiperCoin">  <!-- I don't like numbers in classnames. What if you'll add something between? consider semantic naming  -->
-        <div class="maincontainer">
+    
+    <section class="section_piper-coin" id="PiedPiperCoin">
+        <div class="main_container">
             <h2 class="titles">Introducing PiedPiperCoin</h2>
             <div class="text_section4">
                 <div class="logo">
-                    <img src="PPC Logo.png" alt="logo class"logo_img"/> <!-- logo_img -> logo-img; And you have redundant " here -->
+                    <a href="#Logo2"><img src="PPC Logo.png" alt="logo" class="logo_img"/></a>
                 </div>
                 <p>
                 Pied Piper's new internet is built for users, by users. You supply
@@ -94,85 +92,81 @@
         </div>
     </section>
 
-    <section class="section_5" id="TheTeam">
-        <div class="maincontainer">
+    <section class="section_team" id="TheTeam">
+        <div class="main_container">
             <h2 class="titles">The Team</h2>
             <div class="team">
                 <figure class="figure">
-                    <div class="img"> <!-- Remove those divs. Every img should be in own figure tag  -->
-                        <img
-                        src="Richard Hendricks.png"
+                        <img 
+                        src="Richard Hendricks.png" 
                         alt="Richard Hendricks"
                         class="photo"/>
-                        <figcaption>
+                        <figcaption class="figcap">
                             <h2 class="name">Richard Hendricks</h2>
-                            <em>Founder & CEO</em>
+                            <em class="name_description">Founder & CEO</em>
                         </figcaption>
-                    </div>
-                    <div class="img">
-                        <img
-                        src="Dinesh Chugtai.png"
+                </figure>
+                <figure class="figure">
+                        <img 
+                        src="Dinesh Chugtai.png" 
                         alt="Dinesh Chugtai"
                         class="photo"/>
-                        <figcaption>
+                        <figcaption class="figcap">
                             <h2 class="name">Dinesh Chugtai</h2>
-                            <em>Senior Programmer</em>
+                            <em class="name_description">Senior Programmer</em>
                         </figcaption>
-                    </div>
-                    <div class="img">
-                        <img
-                        src="Bertram Gilfoyle.png"
+                </figure>
+                <figure class="figure">
+                        <img 
+                        src="Bertram Gilfoyle.png" 
                         alt="Bertram Gilfoyle"
                         class="photo"/>
-                        <figcaption>
+                        <figcaption class="figcap">
                             <h2 class="name">Bertram Gilfoyle</h2>
-                            <em>Chief Systems Architect</em>
+                            <em class="name_description">Chief Systems Architect</em>
                         </figcaption>
-                    </div>
-                    <div class="img">
-                        <img
-                        src="Jared Dunn.png"
+                </figure>
+                <figure class="figure">
+                        <img 
+                        src="Jared Dunn.png" 
                         alt="Jared Dunn"
                         class="photo"/>
-                        <figcaption>
+                        <figcaption class="figcap">
                             <h2 class="name">Jared Dunn</h2>
-                            <em>Chief Operating Officer</em>
+                            <em class="name_description">Chief Operating Officer</em>
                         </figcaption>
-                    </div>
-                    <div class="img">
-                        <img
-                        src="Monica Hall.png"
+                </figure>
+                <figure class="figure">
+                        <img 
+                        src="Monica Hall.png" 
                         alt="Monica Hall"
                         class="photo"/>
-                        <figcaption>
+                        <figcaption class="figcap">
                             <h2 class="name">Monica Hall</h2>
-                            <em>Chief Financial Officer</em>
+                            <em class="name_description">Chief Financial Officer</em>
                         </figcaption>
-                    </div>
-                    <div class="img">
-                        <img
-                        src="Nelson Bighetti.png"
+                </figure>
+                <figure class="figure">
+                        <img 
+                        src="Nelson Bighetti.png" 
                         alt="Nelson Bighetti"
                         class="photo"/>
-                        <figcaption>
+                        <figcaption class="figcap">
                             <h2 class="name">Nelson Bighetti</h2>
-                            <em>Majority Investor</em>
+                            <em class="name_description">Majority Investor</em>
                         </figcaption>
-                    </div>
                 </figure>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="maincontainer">
-            <div class="text_footer"> <!-- I don't thing you need this div, just add class to p below -->
+        <div class="main_container">
                 <p class="text">
                     All other trademarks and copyrights are the property of their
                     respective owners. Use of these names, trademarks and brands does
                     not imply endorsement.
                 </p>
-            </div>
         </div>
     </footer>
 </body>
