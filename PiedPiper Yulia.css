@@ -133,7 +133,7 @@ h6 {
   .section_piper-coin {
     background-color: #fff; 
     padding-top: 48px; 
-    padding-bottom: 92px; 
+    padding-bottom: 48px; 
   }
   
   .text_section4 {
@@ -172,7 +172,7 @@ h6 {
   }
 
   .team {
-    padding-top: 58px; 
+    padding-top: 45px; 
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -199,6 +199,7 @@ h6 {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 40px;
 
 }
   
