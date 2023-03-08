@@ -1,6 +1,13 @@
 body {
     margin: 0px auto;
-    font-family: Roboto; sans-serif;
+    font-family: Roboto, sans-serif;
+}
+
+.initial-logo {
+  display: flex;
+  position: center;
+  height: 60px;
+  width: 250px;
 }
 
 h1, 
@@ -22,7 +29,7 @@ h6 {
     text-align: center; 
   }
 
-  .maincontainer {
+  .main_container {
     width: 100%; 
     max-width: 1219px; 
     margin-left: auto; 
@@ -39,25 +46,40 @@ h6 {
     align-items: center; 
     position: fixed; 
     top: 0; 
-    z-index: 21; 
   }
 
   .navigation_container {
-    height: 100%; 
+    height: 20px; 
     display: flex; 
     align-items: center; 
     justify-content: space-between;
   }
 
-  .link {
-    font-weight: 500; 
-    font-size: 90px; 
-    line-height: 100px; 
-    text-decoration: none; 
-    color: #fff; 
+  .nav_links {
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    align-items: center;
   }
 
-  .section_1 {
+  .link {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 26px;
+      text-decoration: none;
+      color: #fff;
+      border-right: solid 2px;
+      padding-right: 7px;
+      margin-right: 9px;
+  }
+
+  .link:last-child {
+    border-right: none;
+  }
+
+  .section_header {
     background: url(header\ image1.png) center no-repeat; 
     background-size: cover; 
     margin-top: 84px; 
@@ -74,24 +96,24 @@ h6 {
     color: #fff; 
   }
  
-  .section_2 {
+  .section_problem {
     background-color: #fff; 
     padding-top: 55px;
     padding-bottom: 95px;
   }
  
-  .text_section2 {
+  .text_section_problem {
     font-style: normal; 
     font-weight: normal; 
     font-size: 32px; 
     line-height: 37.5px; 
   }
 
-  .span {
+  .text_section_problem_strong {
     font-weight: 700; 
   }
   
-  .section_3 {
+  .section_message {
     background: url(Section-3.png) center no-repeat;
     background-size: cover; 
     padding-top: 128px; 
@@ -100,7 +122,7 @@ h6 {
   
   .message {
     width: 100%; 
-    font-style: italic; 
+    font-style: italic;
     font-weight: 500; 
     font-size: 48px; 
     line-height: 56px; 
@@ -108,10 +130,10 @@ h6 {
     color: #fff; 
   }
  
-  .section_4 {
+  .section_piper-coin {
     background-color: #fff; 
     padding-top: 48px; 
-    padding-bottom: 92px; 
+    padding-bottom: 48px; 
   }
   
   .text_section4 {
@@ -124,40 +146,18 @@ h6 {
  
   .logo {
     float: left; 
-    padding-top: 20px;
-    padding-right: 48px; 
-    padding-bottom: 20px;
-    padding-left: 55px;
-  }
-
-  a {
-    font-style: normal;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    color:#fff;
+    padding: 20px 48px 20px 55px;
   }
 
   .logo_img {
-    width: 115px; 
-    height: 115px; 
+    width: 200px; 
+    height: 200px; 
   }
 
-  .section_5 {
+  .section_team {
     background-color: #fff; 
     padding-top: 48px; 
     padding-bottom: 94px; 
-  }
-  
-  .img {
-    width: 350px; 
-    height: 283px; 
-    text-align: center; 
-    display: flex; 
-    flex-flow: column wrap;
-    align-items: center; 
-    padding-bottom: 55px; 
   }
  
   .name {
@@ -167,17 +167,41 @@ h6 {
     color: #007765; 
   }
 
+  .name_description {
+    font-size: 18px;
+  }
+
   .team {
-    padding-top: 58px; 
+    padding-top: 45px; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
   }
   
   .figure {
-    margin: 0; 
+    margin: 100px; 
     padding: 0; 
     display: flex; 
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
   }
+
+.figcap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+
+}
   
   .foto {
     width: 168px; 
@@ -201,6 +225,4 @@ h6 {
     font-size: 18px; 
     line-height: 21px; 
   }
-  
-  
   
