@@ -1,0 +1,32 @@
+@media screen and (min-width : 1200px) {
+}
+
+@media screen and (min-width : 992px) {  
+}
+
+@media screen and (min-width : 768px) {
+
+}
+    
+@media screen and (min-width : 576px) {
+    
+}
+
+.card-text {
+    line-height: 19px;
+}
+
+tbody tr td:nth-child(1),
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4) {
+  color: #007bff;
+}
+
+footer {
+  background-color: #f5f5f5;
+}
+
+.footer_text {
+  margin-top: 15px;
+  margin-left: -20px;
+}
